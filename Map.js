@@ -15,8 +15,9 @@ export default function App({ position, markers }) {
       }}
       minZoomLevel={11}
     >
-      {markers.map((marker) => (
+      {markers.map((marker, key) => ( 
         <Marker
+          key={key}
           coordinate={{
             latitude: marker.latitude,
             longitude: marker.longitude,
