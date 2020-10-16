@@ -48,7 +48,7 @@ export default function App() {
         </View>
       )) || (
         <View>
-          <Text>GPS Unavailable</Text>
+          <Text>GPS No está disponible</Text>
         </View>
       )}
       <StatusBar style="auto" />
